@@ -1,0 +1,5 @@
+km=int(input("Enter kilometres"))
+
+print ('converting kilometres to centimetres')
+
+print(' Centimetres: ',km*(10**5))
