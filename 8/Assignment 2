@@ -2,5 +2,5 @@ km=int(input("Enter number of kilometres"))
 
 print('converting kilometres to centimetres')
 
-print('Centimetres: ',km*(10**5))
+print('Centimetres: ',km*100000)
 
