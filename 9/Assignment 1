@@ -1,0 +1,20 @@
+a=int(input('Enter a value: '))
+
+b=int(input('\nEnter b value: \n'))
+
+if(a>b):
+
+         print(a,' is biggest')
+
+else:
+
+        print (b,' is biggest')
+        
+    
+output:-
+
+Enter a value: 56
+
+Enter b value: 739  
+
+739 is biggest
