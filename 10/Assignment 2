@@ -1,0 +1,16 @@
+n=int(input ('Enter a number'))
+
+if n>=0:
+
+         print ('Given number:', n,' is positive')
+
+else:
+
+         print ('Given number:', n,' is negative')
+         
+         
+         output:
+         
+         Enter a number: -394
+         
+         Given number: Given number: -394 is negative
