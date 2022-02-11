@@ -1,0 +1,68 @@
+sno=int(input ('Enter student number: '))
+
+sname=input ('Enter student name: ')
+
+s1=int(input ('Enter s1: '))
+
+s2=int(input ('Enter s2: '))
+
+s3=int(input ('Enter s3: '))
+
+s4=int(input ('Enter s4: '))
+
+s5=int(input ('Enter s5: '))
+
+s6=int(input ('Enter s6: '))
+
+tot=s1+s2+s3+s4+s5+s6
+
+avg=tot/6
+
+if s1<35 and s2<35 and s3<35 and s4<35 and s5<35 and s6<35:
+
+.    print ('Fail')
+
+elif avg>91:
+
+     print ('O Grade')
+
+elif avg>81:
+
+     print ('A Grade')
+
+elif avg>71:
+
+     print ('B Grade')
+
+elif avg>60:
+
+     print ('C Grade')
+
+elif avg>51:
+
+     print ('D Grade')
+
+else:
+
+     print ('Pass')
+
+
+
+
+Enter student number: 32
+
+Enter student name: Jata
+
+Enter s1: 71
+
+Enter s2: 72
+
+Enter s3: 69
+
+Enter s4: 63
+
+Enter s5: 65
+
+Enter s6: 43
+
+C Grade
