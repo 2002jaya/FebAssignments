@@ -34,15 +34,15 @@ elif avg>=71:
 
      print ('B Grade')
 
-elif avg>=60:
+elif avg>=61:
 
      print ('C Grade')
 
-elif avg>=50:
+elif avg>=51:
 
      print ('D Grade')
 
-elif avg>=40:
+else:
 
      print ('Pass')
 
