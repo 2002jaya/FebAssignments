@@ -18,6 +18,10 @@ tot=s1+s2+s3+s4+s5+s6
 
 avg=tot/6
 
+if s1<35 and s2<35 and s3<35 and s4<35 and s<35 and s6<35:
+   
+     print('Fail')
+
 if avg>=91:
 
      print ('O Grade')
@@ -42,15 +46,15 @@ elif avg>=40:
 
      print ('Pass')
 
-else:
 
-     print ('Fail')
+
+
      
 output:-
 
-Enter student number: 32
+Enter student number: 405
 
-Enter student name: Jata
+Enter student name: Sukumari
 
 Enter s1: 71
 
