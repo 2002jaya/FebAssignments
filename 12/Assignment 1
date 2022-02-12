@@ -1,0 +1,71 @@
+mc=30
+
+oc=90
+
+fc=55
+
+Sc=15
+
+dc=75
+
+cno=int(input('Enter customer number: '))
+
+cname=input ('Enter customer name: ')
+
+cphno=int(input ('Enter customer phone number: '))
+
+mcq=int (input('Enter no of milk packets: '))
+
+ocq=int(input('Enter no of oil packets: ')) 
+
+
+fcq=int(input('Enter no of flour packets: '))
+
+scq=int(input('Enter no of salt packets: ')) 
+dcq=int(input('Enter no of drink bottles: '))
+
+bill=(mc*mcq)+ (oc*ocq)+(fc*fcq)+(sc*scq)+(dc*dcq)
+
+if bill>5000: 
+     dis=bill*10/100
+
+     taxi=bill*10/100
+      
+elif bill>3000:
+
+     dis=bill*8/100
+
+     
+     tax=bill*10/100
+elif bill>2000:
+
+     dis=bill*5/100
+
+     tax=bill*18/100
+
+elif bill>1000: 
+     dis=bill*3/100
+
+     tax-bill*18/100
+
+mainbill=bill-dis+tax 
+print('Bill Amount=',mainbill)
+
+output:-
+
+Enter customer number: 345
+
+Enter customer name: Gowtami
+
+Enter customer phone number: 8899223344
+
+Enter no of milk packets: 5
+
+Enter no of oil packets: 3
+
+Enter no of flour packets: 4
+
+Enter no of salt packets: 2
+
+Enter no of drink bottles: 5 
+Bill Amount= 1201.75
