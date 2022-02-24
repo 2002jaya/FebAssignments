@@ -1,0 +1,17 @@
+def f(x):
+  k=[]
+for num in x:
+     if num<=1:
+        continue
+     for i in range(2,num):
+        if num%i==0:
+           break
+        else:
+           k.append(num)
+  return(len(k))
+n=int(input('enter n: '))
+l=[]
+for i in range(n):
+  x=int(input())
+  l.append(x)
+print(f(l))
