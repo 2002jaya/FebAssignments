@@ -11,3 +11,15 @@ for i in range(n):
         c+=1
 print("count: ",c)
 print(t)
+
+#another way
+n=int(input())
+l=[]
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in l:
+    if i==0:
+        l.remove(i)
+print('Count=",len(l))
+print(l)
